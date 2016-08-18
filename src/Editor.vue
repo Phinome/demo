@@ -23,7 +23,7 @@
         },
         update: function (newValue, oldValue) {
             if (this.editorReady) {
-                this.editor.setContent(newValue)
+                this.editor.setContent(newValue || '')
             }
         },
         unbind: function () {
